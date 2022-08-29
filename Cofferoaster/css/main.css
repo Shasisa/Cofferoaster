@@ -1,0 +1,36 @@
+* {
+    font-family: "Rubik","Roboto","Barlow","Fraunces",sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.header-nav ul li a {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    gap: 33px;
+}
